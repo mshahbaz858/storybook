@@ -8,7 +8,7 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "storybook": "start-storybook -p 7007 -h 192.168.0.14",
+    "storybook": "start-storybook -p 7007 -h 192.168.43.239",
     "build-storybook": "build-storybook"
   },
   "dependencies": {
@@ -43,6 +43,7 @@
     "babel-jest": "^26.6.3",
     "babel-loader": "^8.2.5",
     "babel-plugin-react-native-web": "^0.17.7",
+    "chromatic": "^6.5.6",
     "eslint": "^7.32.0",
     "jest": "^26.6.3",
     "metro-react-native-babel-preset": "^0.67.0",
